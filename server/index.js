@@ -5,7 +5,6 @@ const massive = require('massive');
 const PORT = 4000;
 const authCtrl = require('./controllers/authController');
 const treasureCtrl = require('./controllers/treasureController');
-const auth = require('./middleware/authMiddleware');
 
 const { SESSION_SECRET, CONNECTION_STRING } = process.env
 
